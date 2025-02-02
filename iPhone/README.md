@@ -23,7 +23,8 @@ A classe `iPhone` implementa todas essas interfaces, simulando o funcionamento d
 
 
 ## Diagrama UML
-![Diagrama UML do iPhone](assets/Screenshot 2025-02-02 at 15.50.21.png)
+![Diagrama UML do iPhone](https://github.com/user-attachments/assets/19423fae-7891-447e-89a2-651a53bfdd4f)
+
 
 
 ## 🚀 Tecnologias Utilizadas
