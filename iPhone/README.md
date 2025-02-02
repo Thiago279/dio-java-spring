@@ -20,6 +20,12 @@ O projeto está dividido em três interfaces principais:
 
 A classe `iPhone` implementa todas essas interfaces, simulando o funcionamento do dispositivo.
 
+
+
+## Diagrama UML
+![Diagrama UML do iPhone](assets/Screenshot 2025-02-02 at 15.50.21.png)
+
+
 ## 🚀 Tecnologias Utilizadas
 - Java
 - POO (Encapsulamento, Herança e Polimorfismo)
