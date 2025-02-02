@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Contador {
     public static void main(String[] args) {
 
@@ -14,9 +13,6 @@ public class Contador {
         } catch(ParametrosInvalidosException p){
             System.out.println("O segundo parâmetro deve ser maior que o primeiro");
         }
-
-
-
     }
     static void contar(int um, int dois) throws ParametrosInvalidosException{
         if (um >= dois){
