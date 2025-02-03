@@ -2,8 +2,14 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Banco Inter = new Banco();
+        Inter.setNome("Inter");
+
+
         Cliente Thiago = new Cliente();
         Thiago.setNome("Thiago");
+
+        Inter.adicionarCliente(Thiago);
 
         Conta cc = new ContaCorrente();
         Conta poupanca = new ContaPoupanca();
@@ -16,5 +22,7 @@ public class Main {
 
         cc.imprimirExtrato();
         poupanca.imprimirExtrato();
+
+        Inter.listarClientes();;
     }
 }
