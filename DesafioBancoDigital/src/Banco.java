@@ -10,6 +10,8 @@ public class Banco {
     public String nome;
     public List<Cliente> listaClientes;
 
+    protected List<Conta> listaContas;
+
     public Banco(String nome) {
         this.nome = nome;
     }
@@ -27,28 +29,41 @@ public class Banco {
     public Banco() {
     }
 
+    public void adicionarConta(Conta conta){
+        if(listaContas == null){
+            listaContas = new ArrayList<Conta>();
+        }
+        listaContas.add(conta);
+    }
     public void adicionarCliente(Cliente cliente){
         if(listaClientes == null){
             listaClientes = new ArrayList<Cliente>();
         }
-        listaClientes.add(cliente);
+        if(!listaClientes.contains(cliente)) {
+            listaClientes.add(cliente);
+        }
     }
 
 
     public void listarClientes(){
+        System.out.printf("\n==== Lista de clientes do Banco %s ====\n", this.nome);
         for(Cliente c : listaClientes){
-            System.out.printf("\n==== Lista de clientes do Banco %s ====", this.nome);
-            System.out.println("\ncliente: " + c.getNome());
+            System.out.println("cliente: " + c.getNome());
         }
+        System.out.printf("\n=======================");
     }
 
-   /* public void listaCLientesOrdenadoMaior(){
+   /*public void listaContasOrdenadoMaior(){
         double maior = MIN_VALUE;
-        for(Cliente c : listaClientes){
-            if c.getSaldo()
+        Conta result;
+        for(Conta c : listaContas){
+            if (c.getSaldo()> maior){
+                maior = c.getSaldo();
+                result = c;
+            }
         }
-    }
-    
-    */
+    }*/
+
+
 
 }
