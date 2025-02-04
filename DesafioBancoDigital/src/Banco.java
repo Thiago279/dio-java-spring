@@ -71,7 +71,9 @@ public class Banco {
     }
 
     public void ordenaContasSaldo(){
-        List <Conta> ordenadas = listaContas.stream().sorted(Comparator.comparing(Conta::getSaldo).reversed()).toList();
+        List <Conta> ordenadas = listaContas.stream().
+                sorted(Comparator.comparing(Conta::getSaldo).reversed())
+                .toList();
         // Exibir as contas ordenadas
         System.out.println("\nContas ordenadas por maior saldo:");
         ordenadas.forEach(conta -> System.out.println("Conta: " + conta.getNumero() + ", Saldo: " + conta.getSaldo()));
