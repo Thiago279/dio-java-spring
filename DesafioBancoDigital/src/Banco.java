@@ -4,8 +4,6 @@ import java.util.List;
 
 import static java.lang.Double.MIN_VALUE;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Banco {
     public String nome;
     public List<Cliente> listaClientes;
@@ -53,17 +51,30 @@ public class Banco {
         System.out.printf("\n=======================");
     }
 
-   /*public void listaContasOrdenadoMaior(){
-        double maior = MIN_VALUE;
-        Conta result;
-        for(Conta c : listaContas){
-            if (c.getSaldo()> maior){
+    public void retornaMaiorConta() {
+        double maior = Double.MIN_VALUE;
+        Conta result = null; // Inicializa como null
+
+        for (Conta c : listaContas) {
+            if (c.getSaldo() > maior) {
                 maior = c.getSaldo();
                 result = c;
             }
         }
-    }*/
 
+        if (result != null) {
+            System.out.println("\nConta com maior saldo: ");
+            result.imprimirExtrato();
+        } else {
+            System.out.println("Não há contas cadastradas.");
+        }
+    }
 
+    public void ordenaContasSaldo(){
+        List <Conta> ordenadas = listaContas.stream().sorted(Comparator.comparing(Conta::getSaldo).reversed()).toList();
+        // Exibir as contas ordenadas
+        System.out.println("\nContas ordenadas por maior saldo:");
+        ordenadas.forEach(conta -> System.out.println("Conta: " + conta.getNumero() + ", Saldo: " + conta.getSaldo()));
+    }
 
 }

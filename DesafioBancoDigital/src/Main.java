@@ -24,11 +24,14 @@ public class Main {
 
 
         ct.depositar(100);
-        ct.transferir(50, poupanca);
+        cj.depositar(300);
+        cn.depositar(500);
 
         ct.imprimirExtrato();
         poupanca.imprimirExtrato();
 
         Inter.listarClientes();;
+        Inter.retornaMaiorConta();
+        Inter.ordenaContasSaldo();
     }
 }
