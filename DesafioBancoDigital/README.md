@@ -47,5 +47,5 @@ Além do desafio proposto no bootcamp, foram implementadas funcionalidades extra
 Este projeto proporcionou um aprendizado prático e aprofundado sobre **POO em Java**, além de explorar **coleções, generics e Stream API**. Foi uma excelente oportunidade para consolidar conhecimentos essenciais para o desenvolvimento back-end com Java.
 
 ---
-🚀 **Bootcamp Java DIO & Santander** | 🏆 Desenvolvido por *[Seu Nome]*
+🚀 **Bootcamp Java DIO & Santander** | 🏆
 
