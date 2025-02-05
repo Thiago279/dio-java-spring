@@ -42,12 +42,9 @@ Além da implementação lógica do Sudoku, foi desenvolvida uma **interface gr�
    java Main
    ```
 
-## Contribuições
-Sinta-se à vontade para abrir **issues** ou enviar **pull requests** caso queira contribuir para o projeto!
-
-## Contato
-Para dúvidas ou sugestões, entre em contato via [GitHub](https://github.com/seu-usuario).
+## Printscreen da tela:
+![image](https://github.com/user-attachments/assets/e964e479-ac02-4fe1-9709-748615a80d40)
 
 ---
-Desenvolvido com 💙 por [Seu Nome] no bootcamp Java da **DIO & Santander** 🚀
+
 
