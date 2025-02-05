@@ -99,10 +99,10 @@ public class MainScreen {
         var message = switch (gameStatus){
             case NOT_STARTED ->"O jogo não foi iniciado";
             case INCOMPLETE -> "O jogo esta em andamento";
-            case COMPLETE -> "o Jogo esta completo";
+            case COMPLETE -> "O jogo esta completo";
 
         };
-        message += hasErrors ? "e contém erros" : "e não contém erros";
+        message += hasErrors ? "e contém erros" : " e não contém erros";
         showMessageDialog(null, message);
 
     });
