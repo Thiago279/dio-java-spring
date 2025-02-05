@@ -1,6 +1,6 @@
 package br.com.dio.model;
 
-public class square {
+public class Square {
 
 
     private final boolean fixed;
@@ -8,7 +8,7 @@ public class square {
 
     private final int expected;
 
-    public square(boolean fixed, int expected) {
+    public Square(boolean fixed, int expected) {
         this.fixed = fixed;
         this.expected = expected;
         if (fixed){

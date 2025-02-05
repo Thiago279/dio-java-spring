@@ -9,13 +9,13 @@ import static java.util.Objects.nonNull;
 
 public class Board {
 
-    private final List<List<square>> squares;
+    private final List<List<Square>> squares;
 
-    public Board(List<List<square>> squares) {
+    public Board(List<List<Square>> squares) {
         this.squares = squares;
     }
 
-    public List<List<square>> getSquares() {
+    public List<List<Square>> getSquares() {
         return squares;
     }
 
@@ -54,7 +54,7 @@ public class Board {
     }
 
     public void reset(){
-        squares.forEach(c -> c.forEach(square::clearSquare));
+        squares.forEach(c -> c.forEach(Square::clearSquare));
     }
 
     public boolean gameIsFinished(){

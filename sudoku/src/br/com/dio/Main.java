@@ -1,9 +1,8 @@
 package br.com.dio;
 
 import br.com.dio.model.Board;
-import br.com.dio.model.square;
+import br.com.dio.model.Square;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -91,14 +90,14 @@ public class Main {
             System.out.println("O jogo ja foi iniciado!");
             return;
         }
-        List<List<square>> squares = new ArrayList<>();
+        List<List<Square>> squares = new ArrayList<>();
         for(int i = 0; i< BOARD_LIMIT; i++){
             squares.add(new ArrayList<>());
             for (int j = 0; j < BOARD_LIMIT; j++){
                 var positionConfig = positions.get("%s,%s".formatted(i, j));
                 var expected = Integer.parseInt(positionConfig.split(";")[0]);
                 var fixed = Boolean.parseBoolean(positionConfig.split(";")[1]);
-                var currentSquare = new square(fixed,expected);
+                var currentSquare = new Square(fixed,expected);
                 squares.get(i).add(currentSquare);
 
             }
