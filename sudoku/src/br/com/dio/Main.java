@@ -95,8 +95,8 @@ public class Main {
             squares.add(new ArrayList<>());
             for (int j = 0; j < BOARD_LIMIT; j++){
                 var positionConfig = positions.get("%s,%s".formatted(i, j));
-                var expected = Integer.parseInt(positionConfig.split(";")[0]);
-                var fixed = Boolean.parseBoolean(positionConfig.split(";")[1]);
+                var expected = Integer.parseInt(positionConfig.split(",")[0]);
+                var fixed = Boolean.parseBoolean(positionConfig.split(",")[1]);
                 var currentSquare = new Square(fixed,expected);
                 squares.get(i).add(currentSquare);
 
@@ -142,7 +142,7 @@ public class Main {
             return;
         }
 
-        var args = new Object[01];
+        var args = new Object[81];
         var argPos = 0;
         for( int i = 0 ; i < BOARD_LIMIT; i++){
             for ( var col : board.getSquares()){

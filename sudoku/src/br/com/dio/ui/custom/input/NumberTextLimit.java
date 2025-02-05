@@ -14,7 +14,7 @@ public class NumberTextLimit extends PlainDocument {
 
     @Override
     public void insertString(final int offs, final String str, final AttributeSet a) throws BadLocationException{
-        if (isNull(str) || (NUMBERS.contains(str))) return;
+        if (isNull(str) || (!NUMBERS.contains(str))) return;
 
         if (getLength() + str.length() <= 1){
             super.insertString(offs, str, a);

@@ -15,10 +15,12 @@ public class BoardService {
     private final Board board;
 
     public BoardService(final Map<String, String> gameConfig){
+
         this.board = new Board (initBoard(gameConfig));
     }
 
     public List<List<Square>> getSquares(){
+
         return this.board.getSquares();
     }
 
@@ -43,8 +45,8 @@ public class BoardService {
             squares.add(new ArrayList<>());
             for (int j = 0; j < BOARD_LIMIT; j++){
                 var positionConfig = gameConfig.get("%s,%s".formatted(i, j));
-                var expected = Integer.parseInt(positionConfig.split(";")[0]);
-                var fixed = Boolean.parseBoolean(positionConfig.split(";")[1]);
+                var expected = Integer.parseInt(positionConfig.split(",")[0]);
+                var fixed = Boolean.parseBoolean(positionConfig.split(",")[1]);
                 var currentSquare = new Square(fixed,expected);
                 squares.get(i).add(currentSquare);
             }
