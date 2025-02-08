@@ -75,6 +75,5 @@ Os testes podem ser realizados diretamente no Swagger ou utilizando ferramentas 
 - **API ViaCep**: A API utiliza a consulta de CEPs através da API pública ViaCep para buscar automaticamente os endereços dos clientes.
 - **Banco de Dados em Memória**: O H2 foi utilizado como banco de dados em memória para simplificação e testes rápidos. Você pode alterar a configuração do banco de dados no arquivo `application.properties` se necessário.
 
-## Autor
-
-**Thiago** - Desenvolvedor Java
+## Desafio DIO | Bradesco
+Esse projeto foi desenvolvido como um desafio do bootcamp Java da DIO em parceria com o Bradesco
