@@ -114,7 +114,7 @@ public class MainScreen {
     private void addFinishGameButton(JPanel mainPanel) {
          finishGameButton = new FinishGameButton(e -> {
             if (boardService.gameIsFinished()){
-                showMessageDialog(null, "Parabens , você concluiu o jogo!");
+                showMessageDialog(null, "Parabéns , você concluiu o jogo!");
                 resetButton.setEnabled(false);
                 checkGameStatusButton.setEnabled(false);
                 finishGameButton.setEnabled(false);
