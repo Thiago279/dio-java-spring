@@ -1,7 +1,7 @@
-# Banco Digital - Desafio Bootcamp Java DIO & Santander
+# Banco Digital - Desafio Bootcamp Java DIO & Bradesco
 
 ## 📌 Sobre o Projeto
-Este é um projeto desenvolvido como parte do **Bootcamp Java** da [DIO](https://www.dio.me/) em parceria com o **Santander**. O objetivo principal foi exercitar conceitos de **Programação Orientada a Objetos (POO)**, explorando seus quatro pilares: **Herança, Polimorfismo, Abstração e Encapsulamento**.
+Este é um projeto desenvolvido como parte do **Bootcamp Java** da [DIO](https://www.dio.me/) em parceria com o **Bradesco**. O objetivo principal foi exercitar conceitos de **Programação Orientada a Objetos (POO)**, explorando seus quatro pilares: **Herança, Polimorfismo, Abstração e Encapsulamento**.
 
 ## 🚀 Tecnologias Utilizadas
 - **Java** (JDK 17+ recomendado)
@@ -47,5 +47,5 @@ Além do desafio proposto no bootcamp, foram implementadas funcionalidades extra
 Este projeto proporcionou um aprendizado prático e aprofundado sobre **POO em Java**, além de explorar **coleções, generics e Stream API**. Foi uma excelente oportunidade para consolidar conhecimentos essenciais para o desenvolvimento back-end com Java.
 
 ---
-🚀 **Bootcamp Java DIO & Santander** | 🏆
+🚀 **Bootcamp Java DIO & Bradesco** | 🏆
 
