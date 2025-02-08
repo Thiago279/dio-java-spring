@@ -1,6 +1,6 @@
-# Projeto iPhone - Bootcamp Java DIO Santander
+# Projeto iPhone - Bootcamp Java DIO Bradesco
 
-Este projeto foi desenvolvido como parte do **Bootcamp Java** da **DIO** em parceria com o **Santander**. O desafio proposto consistiu em modelar a arquitetura do iPhone com base na apresentação icônica de **Steve Jobs** no lançamento do primeiro iPhone em **2007**.
+Este projeto foi desenvolvido como parte do **Bootcamp Java** da **DIO** em parceria com o **Bradesco**. O desafio proposto consistiu em modelar a arquitetura do iPhone com base na apresentação icônica de **Steve Jobs** no lançamento do primeiro iPhone em **2007**.
 
 ## 📌 Desafio
 O objetivo do desafio foi criar um **modelo UML** representando as funcionalidades do iPhone original e, opcionalmente, implementar essas funcionalidades em **Java** utilizando conceitos de **POO (Programação Orientada a Objetos)**.
@@ -41,5 +41,5 @@ A classe `iPhone` implementa todas essas interfaces, simulando o funcionamento d
 Este projeto foi uma excelente oportunidade para reforçar conceitos de **Programação Orientada a Objetos** e boas práticas de **design de software**. Além disso, permitiu explorar a modelagem UML como uma ferramenta essencial no desenvolvimento de sistemas.
 
 ---
-📅 **Bootcamp Java - DIO | Santander**
+📅 **Bootcamp Java - DIO | Bradesco**
 
