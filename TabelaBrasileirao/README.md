@@ -195,5 +195,5 @@ mvn spring-boot:run
 
 ## Considerações Finais
 
-Este projeto foi desenvolvido como um exercício prático para aplicar os conceitos aprendidos durante o bootcamp. Utilizando **Spring Boot**, a API foi estruturada de forma simples, porém eficiente, com funcionalidades básicas de gerenciamento de partidas de futebol, atualização de tabela e documentação de API via Swagger.
+Este projeto foi desenvolvido como um exercício prático para aplicar os conceitos aprendidos durante o bootcamp. Utilizando **Spring Boot**, a API foi estruturada de forma simples, porém eficiente, com funcionalidades básicas de gerenciamento de partidas de futebol, atualização de tabela e documentação de API via Swagger. Não subi para nuvem pelo Railway porque o serviço não é mais grátis.
 
