@@ -100,11 +100,15 @@ classDiagram
 
     TimeRepository --> Time
     PartidaRepository --> Partida
-    TimeController --> TimeService
+    TimeController --> TimeServiceImpl
+    TimeServiceImpl --> TimeService
     TimeService --> TimeRepository
-    PartidaController --> PartidaService
+    PartidaController --> PartidaRequestDTO
+    PartidaRequestDTO --> PartidaServiceImpl
+    PartidaServiceImpl --> PartidaService
     PartidaService --> PartidaRepository
-    TabelaController --> TabelaService
+    TabelaController --> TabelaServiceImpl
+    TabelaServiceImpl --> TabelaService
     TabelaService --> TimeRepository
     Partida --> Time : "timeCasa e timeVisitante"
 ```
