@@ -33,7 +33,6 @@ classDiagram
         +int golsCasa
         +int golsVisitante
         +LocalDate data
-        +atualizarTabela()
     }
     
     class TimeRepository {
@@ -44,6 +43,45 @@ classDiagram
     class PartidaRepository {
         +save(Partida partida) Partida
         +findAll() List<Partida>
+    }
+
+    class TimeService {
+        +ResponseEntity<Time> cadastrarTime(Time time)
+        +List<Time> listarTimes()
+    }
+    class TabelaService {
+        +List<Time> exibirTimes()
+    }
+
+    class PartidaService {
+        +ResponseEntity<Time> cadastrarPartida(Time time)
+        -atualizaGolsTime(Time time)
+        -atribuiPontos(Time timeCasa, Time timeVisitante)
+        -atualizaTabela(Partida partida)
+    }
+
+    class TimeServiceImpl {
+        +ResponseEntity<Time> cadastrarTime(Time time)
+        +List<Time> listarTimes()
+    }
+    class TabelaServiceImpl {
+        +List<Time> exibirTimes()
+    }
+
+    class PartidaServiceImpl {
+        +ResponseEntity<Time> cadastrarPartida(Time time)
+        -atualizaGolsTime(Time time)
+        -atribuiPontos(Time timeCasa, Time timeVisitante)
+        -atualizaTabela(Partida partida)
+    }
+
+    class PartidaRequestDTO{
+        +Long id
+        +String timeCasa
+        +Srring timeVisitante
+        +int golsCasa
+        +int golsVisitante
+        +LocalDate data
     }
 
     class TimeController {
@@ -62,9 +100,12 @@ classDiagram
 
     TimeRepository --> Time
     PartidaRepository --> Partida
-    TimeController --> TimeRepository
-    PartidaController --> PartidaRepository
-    TabelaController --> TimeRepository
+    TimeController --> TimeService
+    TimeService --> TimeRepository
+    PartidaController --> PartidaService
+    PartidaService --> PartidaRepository
+    TabelaController --> TabelaService
+    TabelaService --> TimeRepository
     Partida --> Time : "timeCasa e timeVisitante"
 ```
 
