@@ -1,5 +1,6 @@
 package io.github.Thiago279.JavaDIO.controller;
 
+import io.github.Thiago279.JavaDIO.dto.PartidaRequestDTO;
 import io.github.Thiago279.JavaDIO.model.Partida;
 import io.github.Thiago279.JavaDIO.service.PartidaService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +18,8 @@ public class PartidaController {
     PartidaService partidaService;
 
     @PostMapping
-    public ResponseEntity<Partida> cadastraPartida(@RequestBody Partida partida){
-        partidaService.savePartida(partida);
-        return ResponseEntity.ok(partida);
+    public ResponseEntity<PartidaRequestDTO> cadastraPartida(@RequestBody PartidaRequestDTO partidaRequest){
+        partidaService.savePartida(partidaRequest);
+        return ResponseEntity.ok(partidaRequest);
     }
 }

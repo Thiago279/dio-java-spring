@@ -1,5 +1,6 @@
 package io.github.Thiago279.JavaDIO.service.impl;
 
+import io.github.Thiago279.JavaDIO.dto.PartidaRequestDTO;
 import io.github.Thiago279.JavaDIO.model.Partida;
 import io.github.Thiago279.JavaDIO.model.Time;
 import io.github.Thiago279.JavaDIO.repository.PartidaRepository;
@@ -27,6 +28,9 @@ public class PartidaServiceImpl implements PartidaService {
         atualizaGolsTime(partida , partida.getTimeVisitante());
 
         atribuiPontos(partida, timeCasa, timeVisitante);
+
+        timeRepository.save(partida.getTimeCasa());
+        timeRepository.save(partida.getTimeVisitante());
 
     }
 
@@ -68,10 +72,19 @@ public class PartidaServiceImpl implements PartidaService {
     }
 
     @Override
-    public void savePartida(Partida partida) {
+    public void savePartida(PartidaRequestDTO partidaRequest) {
+        // Recupera os times a partir do banco de dados, utilizando os nomes passados
+        Time timeCasa = timeRepository.findByNome(partidaRequest.getTimeCasa())
+                .orElseThrow(() -> new RuntimeException("Time da casa não encontrado"));
+
+        Time timeVisitante = timeRepository.findByNome(partidaRequest.getTimeVisitante())
+                .orElseThrow(() -> new RuntimeException("Time visitante não encontrado"));
+
+        // Cria e configura a nova partida
+        Partida partida = new Partida(timeCasa, timeVisitante,
+                partidaRequest.getGolsCasa(), partidaRequest.getGolsVisitante());
+
         atualizarTabela(partida);
         partidaRepository.save(partida);
-        timeRepository.save(partida.getTimeCasa());
-        timeRepository.save(partida.getTimeVisitante());
     }
 }

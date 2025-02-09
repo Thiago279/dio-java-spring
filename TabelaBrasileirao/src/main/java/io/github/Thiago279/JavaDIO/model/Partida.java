@@ -66,4 +66,15 @@ public class Partida {
     public void setData(LocalDate data) {
         this.data = data;
     }
+
+    public Partida(){
+
+    }
+    public Partida(Time timeCasa, Time timeVisitante, int golsCasa, int golsVisitante) {
+        this.timeCasa = timeCasa;
+        this.timeVisitante = timeVisitante;
+        this.golsCasa = golsCasa;
+        this.golsVisitante = golsVisitante;
+    }
+
 }

@@ -18,6 +18,7 @@ public class TabelaServiceImpl implements TabelaService {
 
     @Override
     public List<Time> exibirTabela() {
+        //falta implementar critérios de desempate (mais gols marcados, mais vitórias etc)
         List<Time> tabela = timeRepository.findAll().stream().
                 sorted(Comparator.comparing(Time::getPontos).reversed())
                 .toList();
