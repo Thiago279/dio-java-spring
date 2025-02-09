@@ -147,7 +147,7 @@ classDiagram
 }
 ```
 
-### 2. **Listar Partidas**
+### 2. **Cadastrar Times**
 - **POST** `/times`
 - **Descrição**: Cadastra um time.
 
