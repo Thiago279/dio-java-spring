@@ -1,0 +1,21 @@
+exit
+db.teste1.find({});
+db.teste1.insertOne({"age": 10});
+db.teste1.insertOne("age": 10{});
+db.teste.find({});
+db.teste.insertOne({"name" : "Teste 2"});
+db.teste.find({});
+show collections;
+db.teste.find({});
+db.teste.insertOne({"name" : "Teste 3"});
+db.teste.insertOne({"name" : "Teste 2"});
+db.teste.find({});
+db.teste.insertOne({"name" : "Teste 1"});
+db.teste.insertOne("name" : "Teste 1");
+db.teste.insertOne("name" : "Teste 1"});
+show collections
+db.createCollection("teste", {capped: true, max: 2, size: 2});
+db.createCollection("teste", {capped: true, max: 2, size: 2};
+use fenda_biquini
+exit
+show databases
