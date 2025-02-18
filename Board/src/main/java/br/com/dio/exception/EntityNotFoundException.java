@@ -1,7 +1,7 @@
 package br.com.dio.exception;
 
-public class EntityNotFounException extends RuntimeException{
-    public EntityNotFounException(final String message){
+public class EntityNotFoundException extends RuntimeException{
+    public EntityNotFoundException(final String message){
         super(message);
     }
 }
