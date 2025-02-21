@@ -1,7 +1,10 @@
 Resumo do Lab
 
-Durante este laboratório, aprendi sobre a importância de definir corretamente o SLA (Service Level Agreement) e como ele impacta a arquitetura de soluções em nuvem. Ao utilizar o Microsoft Azure para criar uma máquina virtual, compreendi que a Microsoft se compromete a cumprir o SLA, e, caso não consiga atendê-lo, é responsável por ressarcir o cliente. Esse acordo de nível de serviço é fundamental para garantir que as expectativas em relação ao tempo de inatividade e desempenho sejam claras.
+Durante este laboratório, aprendi sobre a importância de definir corretamente o SLA (Service Level Agreement) e como ele impacta a arquitetura de soluções em nuvem. 
+Ao utilizar o Microsoft Azure para criar uma máquina virtual, compreendi que a Microsoft se compromete a cumprir o SLA, e, caso não consiga atendê-lo, é responsável por ressarcir o cliente. 
+Esse acordo de nível de serviço é fundamental para garantir que as expectativas em relação ao tempo de inatividade e desempenho sejam claras.
 
-Foi destacado que, ao receber uma requisição para a criação de recursos, é crucial avaliar o tempo de inatividade aceitável, pois isso impacta a definição do SLA e a escolha da arquitetura da solução. Além disso, quanto maior a porcentagem de SLA exigida, maior será o custo associado ao serviço, já que garante um nível mais alto de disponibilidade e desempenho.
+Foi destacado que, ao receber uma requisição para a criação de recursos, é crucial avaliar o tempo de inatividade aceitável, pois isso impacta a definição do SLA e a escolha da arquitetura da solução. 
+Além disso, quanto maior a porcentagem de SLA exigida, maior será o custo associado ao serviço, já que garante um nível mais alto de disponibilidade e desempenho.
 
-A prática com o Azure me proporcionou uma visão mais aprofundada sobre como configurar e gerenciar máquinas virtuais, além de entender o trade-off entre custo e níveis de serviço.
+Esse lab me proporcionou uma visão mais aprofundada sobre como configurar e gerenciar máquinas virtuais, além de entender o trade-off entre custo e níveis de serviço.
