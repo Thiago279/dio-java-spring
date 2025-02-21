@@ -1,0 +1,22 @@
+Resumo do Lab
+
+Neste laboratório, explorei a infraestrutura global do Microsoft Azure, que conta com mais de 60 regiões espalhadas pelo mundo.
+A plataforma fornece uma visão detalhada de como os datacenters funcionam, incluindo uma simulação em forma de globo que exibe todas as regiões do Azure e seus pares de replicação.
+
+Foi possível entender que, no Brasil, o datacenter do Rio de Janeiro é reservado exclusivamente para backup em caso de desastre no datacenter de São Paulo,
+garantindo conformidade com a LGPD, que impede a transferência de dados para os EUA.
+Além disso, a Microsoft utiliza cabos submarinos para interligar seus datacenters globalmente, assegurando alta conectividade e redundância.
+
+Durante a prática, criamos um grupo de recursos, que funciona como um container para armazenar os recursos relacionados a uma solução dentro do Azure. Para isso, definimos:
+	•	Nome do grupo de recursos
+	•	Região onde ele será implantado
+	•	Tags para nomear recursos e facilitar a compreensão da fatura
+
+Além disso, explorei funcionalidades importantes, como:
+	•	Log de atividades, que registra todas as ações realizadas
+	•	Permissões específicas, permitindo atribuir diferentes níveis de acesso a usuários
+	•	Visualizador de recursos em forma de grafo, facilitando a análise da infraestrutura
+	•	Automatização de eventos, otimizando a gestão de recursos
+	•	Segurança e gerenciamento de custos, fundamentais para controle eficiente da infraestrutura
+
+Por fim, criamos uma rede virtual dentro do grupo de recursos, essencial para definir a comunicação entre os serviços no Azure.
