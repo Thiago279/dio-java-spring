@@ -1,0 +1,15 @@
+### Resumo do Lab
+
+Neste laboratório, aprendi sobre a criação de uma instância de banco de dados na Azure e os aspectos relacionados à gestão de custos e responsabilidades do cliente. 
+Utilizando uma imagem para a criação da instância, a Azure fornece uma previsão de custos mensais com base nas escolhas feitas,
+permitindo que o cliente planeje o orçamento.
+
+Foi enfatizado que tudo o que é criado usando uma imagem na Azure fica sob a responsabilidade do cliente,
+incluindo a configuração de redes e gerenciamento.
+Além disso, a plataforma oferece flexibilidade para configurar e gerenciar partes da rede,
+mas a responsabilidade do cliente é maior quando comparado a outros modelos de serviço.
+
+Uma das lições importantes foi que a IaaS (Infraestrutura como Serviço) sempre exige mais envolvimento do cliente.
+Quanto mais o cliente se envolve na configuração e manutenção, menos a Microsoft estará envolvida,
+transferindo uma maior responsabilidade para o cliente.
+Isso impacta diretamente na administração do banco de dados e outros recursos criados.
