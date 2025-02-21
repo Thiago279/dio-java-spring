@@ -1,0 +1,22 @@
+Resumo do Lab
+
+Neste laboratório, aprendi a pré-configurar uma Máquina Virtual (VM) para diferentes ambientes, como teste e produção, utilizando as facilidades que a plataforma Azure oferece para adaptar as VMs às necessidades específicas de cada ambiente.
+A Azure disponibiliza configurações pré-definidas por Sistema Operacional (SO) e aplicativos populares como Linux, WordPress, SQL, Redis, entre outros, facilitando a implementação de soluções.
+
+A criação de uma VM no Azure envolve preencher 8 abas com informações essenciais para personalizar a instância:
+	1.	Grupo de recursos: Define o container que vai armazenar a VM e outros recursos relacionados.
+	2.	Nome da VM: Identifica a máquina virtual.
+	3.	Região: Localização geográfica onde a VM será hospedada.
+	4.	Zona de disponibilidade: Garante alta disponibilidade e redundância.
+	5.	Conjunto de dimensionamento: Define o número de instâncias e configurações de escalonamento para atender à demanda.
+	6.	Limites de instâncias: Define o número máximo e mínimo de instâncias e a porcentagem de utilização de CPU.
+	7.	Tamanhos de VM pré-definidos: A Azure oferece modelos de VM que podem ser consultados na documentação, permitindo selecionar o melhor tipo de máquina para o projeto.
+	8.	Nome e senha do usuário: Configuração do acesso à VM.
+	9.	Portas de entrada: Permite definir quais portas estarão abertas para comunicação externa.
+	10.	Tamanho do disco: Escolha entre SSD ou HDD para armazenamento, com base nas necessidades de desempenho.
+	11.	Selecionar rede virtual: Escolha a rede virtual conforme a localização da máquina e da rede.
+	12.	Instalar extensões: Instalações adicionais de softwares ou agentes que podem ser necessários na VM.
+	13.	Tags: Nomeação de recursos para facilitar a organização e o controle de custos.
+	14.	Ver custos/hora: Exibe a estimativa do custo por hora de execução da VM.
+
+Esse processo de configuração de máquinas virtuais permite a personalização detalhada, adaptando o ambiente de testes ou produção conforme as necessidades de cada projeto.
