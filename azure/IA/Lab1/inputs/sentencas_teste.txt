@@ -1,1 +1,25 @@
+✅ Testes com Diferentes Sentimentos
 
+🔹 Sentimento Positivo
+
+1️⃣ “Hoje tive uma das melhores experiências de compra da minha vida! O atendimento foi excepcional, os funcionários foram extremamente atenciosos e me ajudaram a encontrar exatamente o que eu precisava. O produto é de altíssima qualidade e chegou antes do prazo esperado. Definitivamente recomendo essa loja para qualquer pessoa que busca um bom serviço!”
+
+2️⃣ “Estou extremamente satisfeito com minha nova assinatura de streaming! A plataforma é intuitiva, os conteúdos são variados e sempre encontro algo interessante para assistir. Além disso, a resolução dos vídeos é incrível e não tive problemas com travamentos ou lentidão. Valeu cada centavo!”
+
+🔹 Sentimento Neutro
+
+3️⃣ “Fui ao novo restaurante da cidade para experimentar um prato diferente. O ambiente era agradável e o atendimento foi ok, mas nada excepcional. A comida estava boa, mas não surpreendeu. No geral, foi uma experiência normal, sem nada muito positivo ou negativo para destacar.”
+
+4️⃣ “Recebi meu pedido hoje. A embalagem veio intacta e o produto parece estar de acordo com a descrição do site. Ainda não testei completamente, mas até agora tudo parece normal. Se houver algum problema, entrarei em contato com o suporte.”
+
+🔹 Sentimento Negativo
+
+5️⃣ “Estou extremamente frustrado com esse serviço! Fiz uma compra há mais de duas semanas e até agora meu pedido não foi entregue. O suporte ao cliente simplesmente ignora minhas mensagens e quando finalmente respondem, não oferecem nenhuma solução útil. Definitivamente não recomendo!”
+
+6️⃣ “A experiência de usar esse aplicativo foi um desastre completo. Ele trava constantemente, consome muita bateria e é cheio de anúncios irritantes que aparecem o tempo todo. Eu esperava muito mais, especialmente porque paguei pela versão premium. Me arrependi completamente da compra.”
+
+🔹 Frases Ambíguas (Desafio para o Modelo)
+
+7️⃣ “O hotel tem uma vista incrível para o mar e os funcionários são muito educados. No entanto, o quarto estava um pouco sujo quando chegamos e tivemos que pedir para limparem novamente. No final das contas, conseguimos aproveitar a viagem, mas esperávamos um serviço melhor pelo preço que pagamos.”
+
+8️⃣ “O celular tem uma câmera espetacular e um design muito bonito. No entanto, a bateria dura menos do que eu esperava e o carregamento demora bastante. Se você usa pouco o telefone, pode ser uma ótima opção, mas para mim não foi ideal.”
