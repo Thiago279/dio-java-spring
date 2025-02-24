@@ -56,7 +56,19 @@ Esse experimentdeixou claro que a **Análise de Sentimentos** pode ser aplicada 
 
 ## 📸 Prints do Processo
 
-(Aqui você deve adicionar imagens demonstrando o processo e os resultados obtidos.)
+![image](https://github.com/user-attachments/assets/3361fab1-5ffd-4c42-bd90-229eb21817e9)
+
+![image](https://github.com/user-attachments/assets/5f218997-56e4-4255-90b3-0245429b72a5)
+
+![image](https://github.com/user-attachments/assets/543103f4-fff5-48b4-8508-aea913e5ac38)
+
+![image](https://github.com/user-attachments/assets/15a0643d-0a0d-44b3-be7b-90bf5d24bf44)
+
+![image](https://github.com/user-attachments/assets/5508d09f-eb90-40ea-9039-b7ac03c34f62)
+
+![image](https://github.com/user-attachments/assets/f123e7be-ae92-4635-96a0-d1e543b2d3f5)
+
+
 
 ## 🔗 Como Testar
 
