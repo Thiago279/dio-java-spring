@@ -48,7 +48,7 @@ Após o processamento das frases pela API de Análise de Sentimentos do Azure, o
 
 ## 🛠 Possibilidades Futuras
 
-Durante este experimento, percebemos que a **Análise de Sentimentos** pode ser aplicada em várias áreas, como:
+Esse experimentdeixou claro que a **Análise de Sentimentos** pode ser aplicada em várias áreas, como:
 
 - **Monitoramento de Redes Sociais:** Avaliação de opiniões sobre marcas e produtos.
 - **Atendimento ao Cliente:** Identificação de clientes insatisfeitos em tickets de suporte.
