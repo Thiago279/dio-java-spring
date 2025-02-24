@@ -54,7 +54,7 @@ Esse experimentdeixou claro que a **Análise de Sentimentos** pode ser aplicada 
 - **Atendimento ao Cliente:** Identificação de clientes insatisfeitos em tickets de suporte.
 - **Análise de Feedbacks:** Melhor compreensão de críticas e sugestões em pesquisas de satisfação.
 
-## 📸 Prints do Processo
+## 📸 Prints de alguns testes
 
 ![image](https://github.com/user-attachments/assets/3361fab1-5ffd-4c42-bd90-229eb21817e9)
 
